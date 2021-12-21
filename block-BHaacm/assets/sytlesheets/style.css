@@ -1,0 +1,206 @@
+
+/* Css reset starts here  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css Reset ends here  */
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    line-height: 1.5;
+}
+body p{
+    font-size: 1.6rem;
+    color: grey;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+}
+.btn{
+    padding: .8rem  1.6rem;
+    background: rgb(55,182,103);
+    border-radius: 6px;
+}
+.container{
+    max-width:120rem;
+    width: 100%;
+    margin: 0 auto;
+    padding:  1rem 2rem;
+   
+}
+.flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+/* for the columns */
+.flex-48{
+    flex: 0 1 48%;
+
+}
+.flex-30{
+    flex:  0 1 30%;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.padding{
+    padding: 80px 0;
+}
+/* header stasts here  */
+.header{
+    background-color: #222946;
+    
+}
+header nav ul li {
+    margin: 0 0 0 32px;
+}
+header nav ul li a{
+    text-transform: uppercase;
+}
+header nav ul li .active{
+    color: rgb(55,182,103);
+}
+/* Header ends here  */
+
+/* home section starts here  */
+#home {
+    background: #E9ECFC;
+}
+#home  article{
+    align-items: flex-start;
+}
+#home  article h1{
+    font-size: 4rem;
+    font-weight: 500;
+}
+#home  article p{
+    margin: 2.5rem 0;
+}
+#home  article a{
+    padding: 1.6rem 2.4rem;
+}
+/* home section ends  here  */
+/* blog section starts here  */
+#blog h2{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+   margin: 2rem 0;
+}
+#blog  .blog-container article h3{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 1rem 0  0 0;
+}
+#blog  .blog-container article p{
+    margin:2rem 0;
+}
+/* blog section ends here  */
+
+footer{
+    background: #222946;
+    color: #fff;
+}
+footer small{
+    font-size: 1.6rem;
+}
+footer i{
+    color: rgb(188,192,210);
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+/* Mobile layout starts here  */
+
+@media screen and (max-width:768px){
+    html{
+        font-size: 55%;
+    }
+    .header .container{
+        flex-flow: column wrap;
+        text-align: center;
+ 
+    }
+    .header .container ul li{
+        margin: 20px;
+    }
+    
+    .flex{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .flex-48{
+        flex: 0 1 100%;
+    }
+    .flex-30{
+        flex:  0 1 100%;
+        margin: 3rem 0 0 0;
+    }
+    .padding{
+        padding: 3rem 0;
+    }
+    #home .article-container{
+        flex-direction: column-reverse;
+    }
+    #home  h1{
+        font-size: 2.4rem;
+    }
+    footer .container{
+        flex-flow: column wrap;
+    }
+  
+}
