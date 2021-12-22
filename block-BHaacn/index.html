@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <!-- External  stylesheets  -->
+    <link rel="stylesheet" href="stylesheet/style.css">
+
+    <!-- Font Awesome cdn link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Goolge font cdn  link  -->
+     
+   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container flex">
+                <a  class="logo" href="#"> Alt Events</a>
+                <label for="show-menu" id="show-nav-menus">
+                     <i class="fas fa-bars" id="click-btn" class="check"></i>
+                </label>
+                <input type="checkbox" id="show-menu"  class="hide-menu" role="button"/>
+            <nav>
+                <ul class="flex">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#" class="btn">Join Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section  id="home" class="flex">
+            <div class="container">
+                <article class="flex">
+                    <div class="flex-48 article-content">
+                        <h1 class="heading">
+                            Web Developer <br> Conference <em><span>2020</span></em>
+                        </h1>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam tempore sint, odit laborum molestiae accusamus repellendus harum incidunt officia libero?
+                        </p>
+                        <a href="#" class="btn">Register Now</a>
+                    </div>
+                   <figure>
+                    <img src="assets/hero.png" alt="" class="flex-48">
+                   </figure>
+                </article>
+            </div>
+        </section>
+
+        <!-- home section ends  here  -->
+
+        <!-- about section starts  here  -->
+        <section id="About">
+            <div class="container flex">
+                <div class="flex-48">
+                    <img src="assets/about.png" alt="about our  event" class="full-width">
+                </div>
+                <div class="flex-48">
+                    <h2 class="heading">ABOUT THE EVENT</h2>
+                    <p>
+                        Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s
+                        when an unknown printer took a galley of 
+                        type and scrambled it to make a type
+                        specimen book. 
+                    </p>
+                    <a href="#" class="btn btn-2">Know More</a>
+                </div>
+            </div>
+        </section>
+        <!-- About section ends here  -->
+        <!-- join us section  starts here  -->
+        <section id="join-us">
+            <div class="container flex">
+                <div class="flex-30 join-us-box" >
+                    <h3 class="subheading">
+                        Network
+                    </h3>
+                    <p>
+                        Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s
+                        when an unknown printer took a galley of 
+                        type and scrambled it to make a type
+                        specimen book. 
+                    </p>
+                    <div class="join-box-number middel">1</div>
+                </div>
+
+                <div class="flex-30 join-us-box" >
+                    <h3 class="subheading">
+                        Great Speakers
+                    </h3>
+                    <p>
+                        Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s
+                        when an unknown printer took a galley of 
+                        type and scrambled it to make a type
+                        specimen book. 
+                    </p>
+                    <div class="join-box-number middel">2</div>
+                </div>
+
+                <div class="flex-30 join-us-box" >
+                    <h3 class="subheading">
+                        Information
+                    </h3>
+                    <p>
+                        Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s
+                        when an unknown printer took a galley of 
+                        type and scrambled it to make a type
+                        specimen book. 
+                    </p>
+                    <div class="join-box-number middel">3</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- join us section ends here  -->
+        <!-- scheduel section starts here  -->
+        <section id="schedule">
+            <h2 class="heading section-heading">Schedule</h2>
+            <div class="container flex">
+
+                <div class="progress-circles-container flex-20">
+                    <div class="Responsive-center ">
+                        <div class="progress-circle middel">
+                            <p>06 Sept</p>
+                        </div>
+                        <div class="progress-border-container middel">  <hr class="progress-border"></hr></div>
+                        <div class="progress-circle  porgress-empty-circle middel">
+                            <p>07 Sept</p>
+                        </div>
+                        <div class="progress-border-container middel">  <hr class="progress-border"></hr></div>
+                        <div class="progress-circle porgress-empty-circle  middel">
+                            <p>08 Sept</p>
+                        </div>
+                        <div class="progress-border-container middel">  <hr class="progress-border"></hr></div>
+                        <div class="progress-circle  porgress-empty-circle middel">
+                            <p>09 Sept</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article flex-75">
+                    <article class="flex">
+                        <figure class="flex-20">
+                            <img src="assets/schedule-01.jpg" class="full-width"  alt="schedule image">
+                        </figure>
+                        <div class="content flex-75">
+                            <h2 class="subheading">
+                                Digital World Event Conversation
+                            </h2>
+                            <p>
+                                Lorem Ipsum has been the industry's
+                                standard dummy text ever since the 1500s,
+                             when an unknown printer took a galley of type and scrambled
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="flex">
+                        <figure class="flex-20">
+                            <img src="assets/schedule-02.jpg" class="full-width"  alt="schedule image">
+                        </figure>
+                        <div class="content flex-75">
+                            <h2 class="subheading">
+                                Web Designing Conversation
+                            </h2>
+                            <p>
+                                Lorem Ipsum has been the industry's
+                                standard dummy text ever since the 1500s,
+                             when an unknown printer took a galley of type and scrambled
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="flex">
+                        <figure class="flex-20">
+                            <img src="assets/schedule-03.jpg" class="full-width"  alt="schedule image">
+                        </figure>
+                        <div class="content flex-75">
+                            <h2 class="subheading">
+                                Web Development Conversation
+                            </h2>
+                            <p>
+                                Lorem Ipsum has been the industry's
+                                standard dummy text ever since the 1500s,
+                             when an unknown printer took a galley of type and scrambled
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="flex">
+                        <figure class="flex-20">
+                            <img src="assets/schedule-04.jpg" class="full-width"  alt="schedule image">
+                        </figure>
+                        <div class="content flex-75">
+                            <h2 class="subheading">
+                                Digital Marketing Confrence
+                            </h2>
+                            <p>
+                                Lorem Ipsum has been the industry's
+                                standard dummy text ever since the 1500s,
+                             when an unknown printer took a galley of type and scrambled
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="schedule-download middel">
+                <a href="#" class="btn">Download Schedule</a>
+            </div>
+        </section>
+        <!-- schedule section ends here  -->
+
+
+        <!-- Card section starts here  -->
+        <section id="Cards">
+            <div class="container  card-container flex">
+                <div class="card flex-25">
+                    <img src="assets/speaker.png" alt="about-card-image">
+                    <p class="card-count">20+</p>
+                    <p class="card-name">Great Speakers</p>
+                </div>
+                <div class="card flex-25 active-card">
+                    <img src="assets/idea.png" alt="about-card-image">
+                    <p class="card-count">50+</p>
+                    <p class="card-name">Total</p>
+                </div>
+                <div class="card flex-25">
+                    <img src="assets/participants.png" alt="about-card-image">
+                    <p class="card-count">300+</p>
+                    <p class="card-name">Participants</p>
+                </div>
+                <div class="card flex-25">
+                    <img src="assets/sponsor.png" alt="about-card-image">
+                    <p class="card-count">20+</p>
+                    <p class="card-name">Sponsors</p>
+                </div>
+            </div>
+        </section>
+        <!-- Card section ends here  -->
+
+        <!-- Video  section starts here  -->
+        <section id="Video">
+            <div class="container video-container">
+                <div class="video full-width">
+                    <img src="assets/banner.png" class="full-width" alt="Video full-width">
+                    <div class="play-btn-container middel">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Video section ends here  -->
+
+        <section id="latest-news">
+            <h2 class="heading section-heading">Our Latest News</h2>
+            <div class="container flex">
+                <div class=" col flex-30 ">
+                    <article>
+                        <img src=" assets/news-01.png" alt="news image" class="full-width">
+                        <h2 class="article-heading">
+                            How to build a great portfolio as  a beginner developer
+                        </h2>
+                        <p>
+                            Lorem Ipsum has been the industry's 
+                            standard dummy text ever since the 1500s
+                            when an unknown printer took a galley of 
+                            type and scrambled it to make a type
+                            specimen book. 
+                        </p>
+                        <a href="#" class="btn article-btn">Read More</a>
+                  
+                    </article>
+                </div>
+
+                <div class=" col flex-30 ">
+                    <article>
+                        <img src=" assets/news-02.png" alt="news image" class="full-width">
+                        <h2 class="article-heading">
+                            Four common situation while using git and how to handle them
+                        </h2>
+                        <p>
+                            Lorem Ipsum has been the industry's 
+                            standard dummy text ever since the 1500s
+                            when an unknown printer took a galley of 
+                            type and scrambled it to make a type
+                            specimen book. 
+                        </p>
+                        <a href="#" class="btn article-btn active-btn">Read More</a>
+                  
+                    </article>
+                </div>
+
+                <div class=" col flex-30 ">
+                    <article>
+                        <img src=" assets/news-03.png" alt="news image" class="full-width">
+                        <h2 class="article-heading">
+                            Basic unix command that you should know
+                        </h2>
+                        <p>
+                            Lorem Ipsum has been the industry's 
+                            standard dummy text ever since the 1500s
+                            when an unknown printer took a galley of 
+                            type and scrambled it to make a type
+                            specimen book. 
+                        </p>
+                        <a href="#" class="btn article-btn">Read More</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section starts here  -->
+    <footer>
+        <div class="container flex">
+            <div class=" footer-logo-container flex-30">
+                <img src="assets/footer-logo.png" alt="">
+            </div>
+            <div class="footer-menus flex-30">
+                <h4 class="footer-col-heading">Quick links</h4>
+                <ul class="flex">
+                    <li><a href="#">Program</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Services</a></li>
+
+                </ul>
+            </div>
+            <div class="social-links-container flex-30">
+                <h4 class="footer-col-heading">Follow us</h4>
+                <div class="social-links">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                </div>
+            </div>
+        </div>
+
+        <small>&copy; Altcampus Services Pvt Ltd,2018-present</small>
+    </footer>
+    <!-- Footer section ends here  -->
+</body>
+</html>
